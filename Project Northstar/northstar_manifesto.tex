@@ -1,0 +1,536 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english,icelandic]{babel}
+\usepackage{geometry}
+\usepackage{microtype}
+\usepackage{parskip}
+\usepackage{hyperref}
+\usepackage{xurl}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{setspace}
+
+\geometry{margin=1in}
+\onehalfspacing
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=black,
+  citecolor=black,
+  pdftitle={The North Atlantic Necessity},
+  pdfauthor={The North Atlantic Union Party},
+  pdfsubject={Fictional thesis-style policy paper}
+}
+\titleformat{\section}{\Large\bfseries}{\thesection}{0.8em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{0.8em}{}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+\newcommand{\PartyEN}{The North Atlantic Union Party}
+\newcommand{\PartyIS}{Norður-Atlantshafsbandalagið}
+\newcommand{\MottoEN}{Unity in power, and power in unity}
+\newcommand{\MottoIS}{Eining í styrk og styrkur í einingu}
+\newcommand{\DocNoteEN}{This paper is a fictional policy document written for a fictional universe. It is not affiliated with any real party, campaign, government, referendum, or political organization.}
+\newcommand{\DocNoteIS}{Þessi ritgerð er skáldað stefnuskjal fyrir skáldaðan heim. Hún tengist ekki neinum raunverulegum stjórnmálaflokki, kosningabaráttu, ríkisstjórn, þjóðaratkvæðagreiðslu eða stjórnmálasamtökum.}
+
+\begin{document}
+\selectlanguage{english}
+\hypersetup{pageanchor=false}
+\begin{titlepage}
+  \centering
+  \vspace*{1.8cm}
+  {\Huge\bfseries The North Atlantic Necessity\par}
+  \vspace{0.4cm}
+  {\LARGE A Lifelong Case for Icelandic Union with the United States\par}
+  \vspace{1.1cm}
+  {\Large\bfseries \PartyEN\par}
+  \vspace{0.2cm}
+  {\large\bfseries \PartyIS\par}
+  \vspace{1.2cm}
+  {\Large\itshape ``\MottoEN.''\par}
+  \vspace{0.2cm}
+  {\Large\itshape ``\MottoIS.''\par}
+  \vfill
+  {\large Central claim\par}
+  \vspace{0.1cm}
+  {\large Iceland must pursue union with the United States, but only as equal union, openly negotiated, democratically ratified, and built to preserve Icelandic civic life.\par}
+  \vfill
+  {\small \DocNoteEN\par}
+  \vspace{0.2cm}
+  {\small \DocNoteIS\par}
+\end{titlepage}
+\hypersetup{pageanchor=true}
+\pagenumbering{roman}
+
+\tableofcontents
+\newpage
+\pagenumbering{arabic}
+
+\section*{Fictional Disclaimer}
+\addcontentsline{toc}{section}{Fictional Disclaimer}
+\DocNoteEN
+
+The argument below uses real public data and real comparative examples, including Alaska, Puerto Rico, Iceland's current European Economic Area position, and United States territorial arrangements. Those examples are used analytically for fictional worldbuilding. They should not be read as a real-world electoral programme or campaign instruction.
+
+\section*{Authorial Preface: The Work of a Political Lifetime}
+\addcontentsline{toc}{section}{Authorial Preface: The Work of a Political Lifetime}
+I have returned to this question for decades because every road in Icelandic statecraft seems, eventually, to lead back to it. Currency risk leads back to it. Arctic security leads back to it. Fisheries bargaining leads back to it. The cost of infrastructure, the fragility of small markets, the loneliness of strategic geography, the quiet adoption of rules written elsewhere: all of them lead back to the same question. Can a people remain truly self-governing when the practical instruments of self-government are too small for the century in which they must operate?
+
+This paper is written in that spirit of long obsession. It is not a casual preference for America, nor a fashionable impatience with Europe, nor a decorative provocation. It is the conclusion reached after turning the same stone for a lifetime: Iceland must seek union with the United States, and it must do so properly or not at all.
+
+Properly means equal voice or no union. Properly means no territory without a timetable. Properly means no currency transition without household guarantees. Properly means no federal presence without local consent and environmental law. Properly means no cultural union without Icelandic language supremacy in local civic life. Properly means that the people must see the whole bargain before they are asked to approve it.
+
+The aim is not to make Iceland less Icelandic. The aim is to make Iceland strong enough to remain Icelandic when the North Atlantic becomes one of the pressure points of the world. This is why \PartyEN{} repeats its motto not as decoration, but as discipline: \textit{\MottoEN.}
+
+\section*{Útdráttur}
+\addcontentsline{toc}{section}{Útdráttur}
+\selectlanguage{icelandic}
+\DocNoteIS
+
+Ritgerðin ber saman sjálfstæði og stjórnskipulega einingu frá sjónarhóli lítils norður-atlantísks ríkis, en hún gerir það með skýru höfundarviðhorfi: Ísland verður að sækjast eftir sambandi við Bandaríkin, en aðeins ef sambandið er rétt gert. Niðurstaðan er ekki sú að sjálfstæði sé úrelt, heldur að sjálfstæði sé tæki en ekki trúarsetning. Ef smáríki getur aðeins varið gjaldmiðil, innviði, öryggi, orkumál, fiskveiðar og alþjóðlega samningsstöðu með sífellt meiri ytri aðlögun, þá verður að spyrja hvort skýr, lýðræðisleg og samningsbundin eining geti veitt meira raunverulegt sjálfræði en formlegt einangrað fullveldi.
+
+Meginályktunin er sú að samband við Bandaríkin væri aðeins réttlætanlegt ef það væri samþykkt í þjóðaratkvæðagreiðslu, tryggði íslenska tungu og staðbundna sjálfsstjórn, veitti beina sambandsrödd, varðveitti fiskveiðistjórn og setti félagsleg réttindi ofar hraðri aðlögun. Alaska sýnir hvernig aðgangur að alríkiskerfi, auðlindaréttindi og innviðauppbygging geta aukið framleiðslugetu. Puerto Rico sýnir hins vegar hættuna af ófullri einingu: ríkisborgararéttur án fullrar fulltrúaaðildar, efnahagslegur ójöfnuður og fjármálaeftirlit án jafns pólitísks vægis. Þess vegna er kjarnareglan einföld: ekkert samband án jafnræðis, ekkert samþykki án sannleika.
+
+\selectlanguage{english}
+
+\section{Abstract}
+This fictional thesis-style paper advances the central claim of \PartyEN{} with deliberate urgency: a small North Atlantic republic must pursue negotiated constitutional union with the United States rather than drift indefinitely between formal independence, European rule-adoption, currency exposure, and strategic dependence. The paper does not treat independence as a romantic defect or union as an automatic good. It argues that the old vocabulary is no longer adequate. Sovereignty is not only the possession of a flag and parliament. It is the ability to act at the scale demanded by the age.
+
+The thesis is that independence preserves the greatest symbolic control, but union can increase practical self-government if and only if it is democratic, constitutionally defined, locally protective, and accompanied by full political representation. Alaska is the positive but limited case: statehood and federal integration coincided with large-scale resource development, infrastructure, public revenue, and high output per person. Puerto Rico is the necessary warning: partial union without equal federal representation can produce citizenship without full political power, economic vulnerability, and external fiscal oversight. The paper therefore argues for neither annexation nor vague association, but for a high-threshold model of consent-based union and for a transitional North Atlantic Democratic Alliance that gives both Iceland and the United States enforceable guarantees before final accession is attempted: \textit{equal voice or no union; no union without consent; no consent without truth.}
+
+\section{Introduction}
+Small states are often described as sovereign because they possess flags, parliaments, courts, and treaty capacity. That description is true, and in the most important sense incomplete. Sovereignty also has a material dimension. A state must be able to finance infrastructure, defend critical systems, stabilize currency shocks, regulate external capital, protect language and culture, and negotiate with larger powers without becoming a price-taker in every strategic market.
+
+Iceland is a strong example of successful small-state independence. World Bank data list Iceland's 2024 GDP at roughly \$33.26 billion and GDP per capita at about \$86,040, while Statistics Iceland estimated the population at 383,726 on 1 January 2024.\cite{worldbankiceland,statisticsiceland} This is a prosperous society with a capable state, not a failed polity in search of rescue. That fact matters. The argument for union cannot rest on desperation. It must rest on comparative institutional advantage, and on the harder recognition that prosperity does not abolish vulnerability.
+
+The party's motto, \textit{\MottoEN}, therefore has a precise meaning. It does not mean that power should erase identity. It means that a small nation may preserve more of its chosen life by entering a larger constitutional structure with enforceable rights, representation, fiscal depth, and strategic scale. The writer of this paper treats that not as an interesting possibility, but as the central obligation of Icelandic statecraft in the fictional North Atlantic century.
+
+\section{Method and Scope}
+The paper uses comparative institutional analysis rather than campaign rhetoric, but it does not pretend to be emotionally indifferent. Its method is the method of a long argument disciplined by evidence. It asks how different constitutional arrangements distribute five things:
+
+\begin{enumerate}
+  \item democratic voice;
+  \item economic scale and fiscal capacity;
+  \item control over language, land, fisheries, and local law;
+  \item external security and Arctic bargaining power;
+  \item risk of dependency, democratic dilution, or cultural loss.
+\end{enumerate}
+
+The comparison is deliberately cautious. Alaska is not Iceland. Puerto Rico is not Iceland. The European Economic Area is not the European Union. Yet each case clarifies one side of the problem. Alaska shows what full integration into the United States can make possible when resource rights, infrastructure, and federal representation align. Puerto Rico shows what can go wrong when union is incomplete. The EEA shows how a small state can gain market access while accepting a stream of external rulemaking through a complex incorporation process.\cite{eftaeea}
+
+\section{The Corruption of Small-State Intimacy}
+The strongest argument for Icelandic independence is democratic intimacy. The strongest argument against trusting it blindly is elite intimacy. A small state can be close to its citizens, but it can also be close to its banks, donors, regulators, party machines, law firms, media owners, quota holders, and former ministers. The same short distances that make accountability feel possible can make capture feel ordinary.
+
+The 2008 banking collapse is therefore not a footnote to this thesis. It is one of its origins. The Special Investigation Commission of Althing was established to investigate and analyse the processes leading to the collapse of Iceland's three main banks, and delivered its report in April 2010.\cite{sicenglish} Later official and academic postmortems described a banking system that had grown far beyond the capacity of the Icelandic state to backstop it. A Bank for International Settlements case study notes that after bank privatization and expansion, the assets of Kaupthing, Glitnir, and Landsbanki grew rapidly, while regulation and supervision were not strong enough to contain them.\cite{bisiceland} Benediktsdóttir, Eggertsson, and Þórarinsson describe a system that grew from about 100 percent of GDP in 1998 to about 900 percent of GDP in 2008 before failing.\cite{brookingsiceland}
+
+Icesave made the institutional failure visible to the world. The dispute arose after Landsbanki's online branches in the United Kingdom and the Netherlands took foreign deposits under a structure that Iceland could not practically guarantee in crisis. ASIL's account of the dispute notes that the Icelandic central bank could not act as lender of last resort because bank liabilities were foreign-currency liabilities and exceeded eight times Icelandic GDP, while the government lacked resources to guarantee the foreign-currency liabilities of the three largest banks.\cite{asilicesave} The point is not that every Icesave liability should be morally assigned to the Icelandic taxpayer. The point is more damning: Icelandic institutions had permitted a financial structure in which private expansion created public diplomatic exposure beyond the sovereign's practical capacity.
+
+The party-bank proximity was not merely atmospheric. In 2009, reporting and later political debate focused on controversial 2006 donations to the Independence Party from FL Group and Landsbanki. Contemporary accounts recorded that former Prime Minister Geir H. Haarde accepted responsibility for those donations; later, in 2012, he was found guilty by Landsdómur of failing to hold cabinet meetings on the banking crisis, while being cleared of more serious charges.\cite{guardianhaarde} These facts do not prove a court-adjudicated conspiracy by the Independence Party to cause Icesave. This paper does not claim that. It claims something more structural and, in the long run, more corrosive: the political economy of the boom revealed party-bank entanglement, donor dependency, regulatory softness, and a documented legitimacy crisis.
+
+That is the evidence-led meaning of collusion in this paper. It is not a criminal verdict smuggled into rhetoric. It is a political diagnosis of a small system in which private financial power, party finance, privatization ideology, regulatory weakness, and national prestige became mutually protective until reality arrived all at once. European public-accountability data now describe formal Icelandic political-finance rules on disclosure, anonymous donations, and contribution limits, which is precisely the point: the crisis made visible why rules that seem procedural are in fact constitutional defenses.\cite{europamfinance}
+
+The lesson for union is not that America will purify Icelandic politics. No serious person should write that sentence. The United States has its own corruption, lobbying, regulatory capture, and financial crises. The argument is narrower and institutional: a larger constitutional order can add external scale, federal courts, wider disclosure regimes, independent audit capacity, and regulatory depth to a political economy that has sometimes been too intimate with itself.
+
+This is why the proper union thesis must be anti-corruption at its core. If Iceland negotiates union, the process cannot be run by the same closed networks that profited from ambiguity before. Every donation, advisory role, lobbying contract, banking interest, fisheries interest, defense procurement interest, and future employment promise must be disclosed before referendum. The people must not be asked to ratify a national future while private actors trade options on it in the shadows.
+
+\section{The Thirty-Year Error}
+The thirty-year error is the habit of confusing formal independence with practical sovereignty. It is the belief that because a parliament retains the final legal word, the nation has retained the full practical power to choose. This error is comfortable because it flatters memory. It permits the state to borrow scale from others while speaking as if scale did not matter.
+
+For decades, the small-state solution has often been to accept outside scale piece by piece: security through alliance, market access through European structures, currency credibility through discipline and luck, infrastructure through narrow revenue bases, and regulatory capacity through imported standards. Each arrangement can be defended on its own terms. Together they form a quiet constitution of dependence.
+
+The error is not cooperation. Cooperation is necessary. The error is refusing to name dependence when dependence has already become structural. A proper union with the United States would at least put the dependency on the table, define it, constitutionalize it, democratize it, and attach it to representation. That is why delay is not neutral. Delay preserves ambiguity, and ambiguity is the most expensive form of sovereignty a small state can buy.
+
+\PartyEN{} therefore begins from a hard sentence: Iceland should stop managing dependence indirectly and start negotiating power directly. Equal voice or no union. No territory without a timetable. No currency transition without household guarantees. No federal presence without local consent and environmental law. No cultural union without Icelandic language supremacy in local civic life.
+
+\section{Baseline: Independence in a Networked World}
+\subsection{The Strengths of Independence}
+Full independence gives a small republic maximum constitutional clarity. The people elect a parliament that can legislate without formal subordination to a federal or supranational legislature. The state controls citizenship, fisheries policy, tax design, cultural policy, language law, public welfare, and the symbolic grammar of national life.
+
+For Iceland, those advantages are not abstract. Fisheries, language, and land use are core sovereignty questions. Independent control lets Iceland decide how marine resources are allocated, how foreign investment is limited, and how the Icelandic language is protected in schools, courts, media, and digital systems. Independence also permits flexibility: a small state can move quickly in diplomacy, energy policy, disaster response, and public administration.
+
+Independence also has democratic intimacy. Citizens can see the scale of government. Political leaders are reachable. Local mistakes remain local enough to be corrected by national elections rather than buried inside a distant constitutional order.
+
+\subsection{The Costs of Independence}
+The same small scale that makes government intimate can make it vulnerable. A small currency can face volatility. A small tax base can struggle to finance large infrastructure, defense, health technology, cyber resilience, and research systems. A small diplomatic service must negotiate with larger regulatory blocs and security powers that can set terms indirectly.
+
+Iceland already manages some of these constraints through external integration. The Government of Iceland describes the European Economic Area Agreement as a vital part of Iceland's foreign policy, extending participation in the EU single market without EU membership.\cite{govicelandeurope} That is a practical success, but it is also a reminder: modern independence often works by accepting structured dependence.
+
+The question is therefore not ``independence or dependence.'' The question is which dependencies are transparent, democratic, revisable, and worth their price. A nation that imports rules, borrows security, and defends a small currency may still be independent in law, but it must ask whether law alone is enough.
+
+\section{Unity as a Constitutional Strategy}
+\subsection{The Argument for Union}
+The case for union begins with capacity, but it does not end there. A small North Atlantic republic inside the United States could gain access to a larger currency area, federal courts, defense systems, disaster response capacity, research funding, broader capital markets, and national infrastructure programmes. If the status were equal and constitutional, citizens would also gain a federal political voice.
+
+Union may therefore convert formal sovereignty into practical agency. A larger republic can absorb shocks that would strain a small treasury. It can defend sea lanes, undersea cables, airspace, and energy infrastructure. It can support frontier regions whose strategic value exceeds their population. Most importantly, it can turn Iceland's geography from exposure into leverage.
+
+This is the logic behind the slogan \textit{a larger republic, a stronger Iceland}. The slogan is not an economic law. It is a constitutional hypothesis: scale is useful only when it is tied to rights, representation, and local safeguards. Union is imperative only because the wrong union is intolerable. The demand is not simply to enter the United States. The demand is to enter with a constitutionally enforceable Icelandic bargain.
+
+\subsection{The Dangers of Union}
+Union can also fail. It can dilute language, reduce local discretion, expose the smaller society to national partisan cycles, and replace visible local authority with distant bureaucratic power. If a territory receives citizenship but not full representation, the result can be worse than clean independence: obligations without equal voice.
+
+Union also creates transition risk. Currency conversion, tax harmonization, public pension treatment, fisheries jurisdiction, welfare guarantees, land law, indigenous and local rights, and defense installations would all require negotiated protection. A bad treaty could trade real autonomy for symbolic access.
+
+For that reason, \PartyEN{} should reject any model that is merely administrative. The acceptable model is consent-based, published, reviewed, and ratified: \textit{equal voice or no union; no union without consent; no consent without truth.} There must be no accidental annexation, no permanent waiting room, no second-class citizenship, and no polite constitutional fog.
+
+\section{Comparative Case I: Alaska and Productive Integration}
+Alaska is the strongest comparative case for the productive upside of American constitutional integration, but only if used carefully. Alaska became the 49th state in 1959, gained federal representation, and entered the Union with a statehood compact that helped define land and resource rights. Subsequent oil development transformed the state's fiscal and productive capacity.
+
+Several data points matter. The Alaska Permanent Fund Corporation records that construction of the 800-mile Trans-Alaska Pipeline began in 1974 at a cost of about \$8 billion, and that voters approved the constitutional amendment creating the Permanent Fund in 1976. The first dedicated oil-revenue deposit, \$734,000, was made in 1977.\cite{apfchistory} EIA material records the central role of Prudhoe Bay and Alaska's North Slope in United States crude oil production; one EIA analysis notes that Alaska production declined from 1.8 million barrels per day in 1991 to 0.5 million barrels per day in 2014, while almost 75 percent of Alaska crude oil production from 1990 to 2012 came from Prudhoe Bay and Kuparuk River fields.\cite{eiaalaskaarctic}
+
+The contemporary output picture is also notable. USAFacts, drawing on BEA and Census data, reports Alaska real GDP per capita of about \$78,000 in 2025, ranking eighth among the fifty states.\cite{usafactsalaska} BEA defines state GDP as the comprehensive measure of the value of goods and services produced in a state and publishes state industry breakdowns.\cite{beagdpstate}
+
+The lesson is not that the United States magically creates productivity. Alaska's geography, resources, federal land policy, Indigenous institutions, global oil prices, and Cold War strategy all mattered. The more precise lesson is institutional: statehood gave Alaska a framework in which resource wealth, federal infrastructure, representation, and local public finance could be connected. The Permanent Fund also shows how a frontier region can convert nonrenewable resource revenue into a long-term public asset.
+
+For the writer of this paper, Alaska is not a curiosity. It is the nearest large proof that remote northern geography need not remain peripheral if it is made legible to federal power. A frontier can become a center of national planning. A sparse population can still command infrastructure. Strategic distance can become strategic importance. That is the lesson Iceland must study obsessively, not to copy Alaska, but to refuse the assumption that small northern societies must always negotiate from the edge.
+
+For a fictional Icelandic case, Alaska supports three arguments:
+
+\begin{enumerate}
+  \item union can increase productive scale when resource rights and infrastructure finance are explicit;
+  \item strategic geography can become a bargaining asset inside a federal republic;
+  \item local institutions must capture part of the gains, or development becomes extraction rather than prosperity.
+\end{enumerate}
+
+\section[Two Unfinished Democracies]{Two Unfinished Democracies: Iceland-Denmark and Puerto Rico-United States}
+Puerto Rico is not an isolated warning. It is a mirror held up to Iceland's own constitutional memory. The histories are not identical: Iceland ultimately became a republic in 1944, while Puerto Rico's status remains unresolved. Yet both relationships reveal the same political danger. Colonial or imperial subordination can be softened by local democracy without being fully settled by it. Home rule can become dignified, useful, and still stagnant. A people can govern many local matters while the final constitutional fact remains elsewhere.
+
+Iceland's road out of Danish rule moved through stages of partial democracy. Nordics.info summarizes the sequence: the Althing was restored in 1845 as a national consultative assembly; Iceland received a constitution in 1874 giving the Althing legislative power; home rule arrived in 1904; and in 1918 Iceland became an independent and sovereign state in personal union with Denmark.\cite{nordicsicelandhistory} The Library of Congress notes that the 1918 Union Act recognized Iceland as sovereign under a shared monarch, while the union preserved Danish responsibility for foreign affairs and the coast guard.\cite{locunionact} That settlement was a democratic advance, but it was also an intermediate form. Iceland had outgrown colonial subordination, but it had not yet reached constitutional finality. The republic of 1944 ended that ambiguity.
+
+Puerto Rico's path has its own chronology and wounds. The United States acquired Puerto Rico from Spain in 1898. Congress granted U.S. citizenship to Puerto Ricans in 1917, and in 1952 Puerto Rico adopted a constitution under the Commonwealth, or \textit{Estado Libre Asociado}, arrangement. A U.S. Office of the Historian document described the Commonwealth language as local freedom in internal affairs while Puerto Rico remained linked to, and part of, the U.S. political system.\cite{historianprcommonwealth} CFR describes the present paradox more bluntly: Puerto Rico is part of the United States, has U.S. citizenship, and has local political institutions, but lacks full political representation.\cite{cfrpuertorico}
+
+The mirror matters because both cases show how partial settlement can become constitutional stagnation. Iceland used home rule and personal union as steps toward exit. Puerto Rico's Commonwealth became a long-term status, and PROMESA later proved that unresolved sovereignty can reassert external authority even after decades of local democracy. The lesson for any Iceland-U.S. transition is therefore severe: never confuse autonomy with finality.
+
+\begin{center}
+\small
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{L{0.28\textwidth}L{0.28\textwidth}L{0.30\textwidth}}
+\toprule
+\textbf{Iceland under Denmark} & \textbf{Puerto Rico under the United States} & \textbf{Lesson for Iceland-U.S. union} \\
+\midrule
+Restored Althing, constitution, home rule, then 1918 sovereign personal union. & U.S. citizenship, local constitution, and Commonwealth self-government after 1952. & Local democracy is not enough if core sovereignty remains unsettled. \\
+Danish responsibility for foreign affairs and coast guard preserved external dependence. & No voting congressional representation or presidential vote preserves federal dependence. & External control over sovereign functions must have an endpoint. \\
+1944 republic resolved the ambiguity by final constitutional choice. & PROMESA and status debates show unresolved authority can return in fiscal crisis. & Democratic autonomy without constitutional finality becomes stagnant. \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Iceland should not voluntarily recreate the kind of partial status it once escaped. If a transitional alliance is necessary, it must be temporary, transparent, and pointed toward a final choice. The North Atlantic Democratic Alliance must therefore be a bridge, not a beautifully administered waiting room.
+
+\section{Comparative Case II: Puerto Rico and the Risks of Partial Union}
+Puerto Rico supplies the necessary counterweight and sharpens the Iceland-Denmark mirror. It demonstrates that association with the United States can produce deep ties without equal power. The Congressional Research Service has described the status quo, statehood, independence, and free association as constitutionally viable options for Puerto Rico if Congress and Puerto Rico revisit the island's status.\cite{crspuertorico} That range of options exists because Puerto Rico's present status has never resolved the central democratic problem of territory, citizenship, and representation.
+
+Economically, Puerto Rico shows both resilience and vulnerability. BEA reported that real GDP for Puerto Rico increased 3.0 percent in 2023 after decreasing 2.1 percent in 2022, with the 2023 increase primarily reflecting exports and gains in personal consumption, government spending, and private fixed investment.\cite{beapuertorico} The Federal Reserve Bank of New York's 2026 Puerto Rico indicators report lists a 2024 population of about 3.2 million, a ten-year population decline of 11 percent, and a 2023 median household income of \$25,100 compared with \$76,170 for the United States.\cite{nyfedpuertorico}
+
+The fiscal sovereignty problem is sharper. The Financial Oversight and Management Board for Puerto Rico states that PROMESA was signed in 2016 to allow Puerto Rico to restructure debt and achieve fiscal responsibility, and that PROMESA established the Board to provide a method for a covered territory to achieve fiscal responsibility and access to capital markets.\cite{fombpromesa} Whatever one's view of the Board, its existence illustrates the central risk of incomplete union: local fiscal life can be supervised by an externally authorized institution when political status remains unresolved.
+
+Puerto Rico's lesson for \PartyEN{} is therefore negative and vital. Do not seek a status that offers belonging without equality. Do not accept permanent territorial ambiguity. Do not confuse citizenship with representation. Do not trade independent vulnerability for dependent vulnerability.
+
+This is the line that must be written into every negotiating instruction: Puerto Rico is not a failure of culture or capacity; it is a warning about constitutional incompletion. Partial belonging is not union. It is limbo with paperwork. If Iceland is to enter the United States in this fictional future, it must not enter as a question to be answered later.
+
+\section{The European Alternative}
+The European Union is not the enemy in this paper. It is a serious model of peace, market scale, regulatory capacity, and regional cooperation. Iceland already benefits from European integration through the EEA. The EFTA Secretariat describes a detailed process by which EU legal acts move through EEA EFTA procedures before incorporation into the EEA Agreement, including expert participation, national assessment, and Joint Committee decisions.\cite{eftaeea}
+
+The advantage of the European route is continuity. It keeps Iceland within a familiar Nordic-European legal and market environment. It may protect trade, labor mobility, research cooperation, and regulatory predictability without forcing the cultural shock of American constitutional accession.
+
+The disadvantage is voice. EEA participation gives channels of influence, but not the same legislative power as EU membership. EU membership would increase formal participation, but it would also raise hard questions about fisheries, agriculture, monetary policy, and legal supremacy. The European Commission describes the Common Fisheries Policy as EU regulation that places sustainability at the heart of fisheries policy and includes common market and advisory structures.\cite{eucfp} For an Icelandic polity, any shift toward the EU therefore has to confront the political sensitivity of fisheries governance.
+
+The United States route has the opposite structure. It is more radical, but if negotiated as full constitutional union, it could provide clearer federal representation than the EEA and a different kind of scale than the EU. Its risk is not hidden rule-taking but cultural and constitutional transformation.
+
+\section{Pros and Cons: Independence versus Unity}
+\subsection{Independence}
+\begin{center}
+\begin{tabular}{p{0.43\textwidth}p{0.43\textwidth}}
+\toprule
+\textbf{Pros} & \textbf{Cons} \\
+\midrule
+Maximum constitutional clarity and national symbolism. & Small currency and narrow fiscal base can magnify shocks. \\
+Direct control over fisheries, land, language, welfare, and citizenship. & Defense, cyber security, research, and infrastructure costs can exceed scale. \\
+Democratic intimacy and faster local correction of policy errors. & External rules may still arrive through trade, security, finance, and EEA dependence. \\
+Freedom to balance Nordic, European, Arctic, and Atlantic relationships. & Bargaining power may be limited when negotiating with larger blocs. \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Unity with the United States}
+\begin{center}
+\begin{tabular}{p{0.43\textwidth}p{0.43\textwidth}}
+\toprule
+\textbf{Pros} & \textbf{Cons} \\
+\midrule
+Access to federal scale, common currency, defense depth, and broader capital markets. & Risk of cultural dilution and reduced local discretion. \\
+Potential federal representation if admitted under an equal constitutional status. & Badly designed territorial status could reproduce Puerto Rico's democratic deficit. \\
+Arctic geography could gain strategic value inside federal planning. & Transition costs for tax, pensions, courts, welfare, currency, and regulation would be high. \\
+Alaska suggests productive upside when resource rights and infrastructure align. & Alaska also shows dependence on commodity cycles and federal land policy. \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\section{The North Atlantic Democratic Alliance}
+The missing instrument is not a slogan. It is a transitional alliance compact designed to answer the question both governments would ask before any final accession vote. Iceland would ask: what protects our language, households, fisheries, welfare state, land, and democratic choice while we approach a larger republic? The United States would ask: what strategic, legal, fiscal, and democratic assurances justify investing in the transition before admission is certain?
+
+There is already a historical precedent for the scale of American commitment that Icelandic geography can command. In a scholarly account of Iceland's path from aid recipient to donor, Loftsdóttir, Björnsdóttir, and Skaptadóttir note that Iceland received \$38.8 million in Marshall Plan assistance from 1948 to 1953, 77 percent of it as grants; citing Thorhallsson, Steinsson, and Kristinsson, they report that Iceland received almost twice as much aid per capita as the second-highest recipient, that Marshall aid reached nearly 6 percent of Iceland's GDP at its 1951 peak, and that it financed 17 percent of Iceland's imports between 1949 and 1953.\cite{icelandforeignaid} The lesson is not that Iceland should ask for charity. It is that the United States has already treated Iceland as a small country with outsized strategic value, and Iceland has already used American-backed transition capital to modernize fishing, energy, agriculture, imports, and infrastructure.
+
+\subsection{The Older American Interest}
+The Marshall Plan was not the first moment when American officials looked north and saw Iceland as more than a remote island. In 1868, the U.S. Government Printing Office published \textit{A Report on the Resources of Iceland and Greenland}, compiled by Benjamin Mills Peirce for the U.S. State Department and the Coast Survey context.\cite{peirce1868} The report grew out of Robert J. Walker's suggestion to Secretary of State William H. Seward that, while the United States was negotiating with Denmark over the Danish West Indies, it should also consider obtaining Greenland and possibly Iceland. Later historical work places the report within a longer history of proposals to sell, annex, or evacuate Iceland, and notes that Peirce drew attention to Iceland's North Atlantic position and its proximity to Greenland and North America.\cite{gissurarsonproposals}
+
+Peirce's report and Walker's introduction treated Iceland and Greenland as strategically connected North Atlantic assets. They emphasized fisheries, harbors, mineral prospects, hydraulic power, telegraph routes, and the fact that Iceland stood closer to Greenland than to much of Europe. One striking phrase described Iceland as seeming ``rather American in its connections than European.''\cite{peirce1868} Another passage praised Iceland's ``splendid fisheries'' and ``unsurpassed hydraulic power,'' language that now reads as both perceptive and deeply nineteenth-century in its acquisitive confidence.\cite{peirce1868}
+
+This paper acknowledges Peirce not to endorse the old purchase logic, but to bury it properly. The 1868 imagination was imperial: governments and elites might transfer peoples and islands as strategic property. The modern argument must be the opposite. Iceland cannot be purchased, annexed, traded, or quietly transferred by diplomatic convenience. It can only choose, in public, by referendum, under a treaty that protects its language, households, resources, and political voice. The democratic alliance is the answer to Peirce's problem without Peirce's imperial method.
+
+This paper therefore proposes the \textit{North Atlantic Democratic Alliance}: a ten-year renewable compact between Iceland and the United States, approved by referendum in Iceland and by implementing legislation in Congress. It would not pretend to admit Iceland as a state by treaty. Article IV, Section 3 of the United States Constitution gives Congress the power to admit new states, and historic admission acts such as Alaska's show that equal footing, popular ratification, elections, land/resource provisions, and continuity of law must be handled by statute.\cite{usconstitution,alaskastatehood} The Alliance would instead do what a transition instrument can honestly do: secure the runway, define the tests, protect both publics, and prevent ambiguity from becoming permanent.
+
+The model borrows cautiously from two families of precedent. The first is statehood practice: Congress can set conditions, require a popular vote, preserve local laws until changed, and provide for representation after admission. The Alaska Statehood Act is useful not because Iceland is Alaska, but because it demonstrates that admission can be structured through propositions submitted to voters, continuity rules, land and resource clauses, and election machinery.\cite{alaskastatehood} The second is compact practice: the United States has used compacts to combine economic assistance, self-government, defense commitments, and strategic denial rights with democratic approval in associated states. CRS describes the Freely Associated States compacts as including U.S. defense obligations, a U.S. right of strategic denial, possible military facilities, economic assistance, and residence/work rights, while also noting that those arrangements are not statehood and have produced their own oversight and development problems.\cite{crsfas,doiCOFA}
+
+The Alliance would be neither annexation nor free association. It would be a democratic bridge. Its purpose would be to guarantee the United States what it actually wants in the North Atlantic without forcing Iceland into a constitutional waiting room, and to guarantee Iceland what it actually wants from union without asking Washington to make promises the Constitution does not allow.
+
+In plain terms: the Marshall Plan precedent proves that the old bargain is not fantasy. The United States has wanted Iceland secure, aligned, supplied, and infrastructurally capable before. Iceland has wanted capital, markets, defense, and modernization without surrendering the Icelandic state. The democratic alliance updates that bargain for a harsher Arctic century and adds what the old bargain lacked: public anti-corruption machinery, household guarantees, language supremacy, and an endpoint chosen by voters.
+
+\subsection{What the United States Gets}
+The United States receives strategic certainty in a region its own defense planning already treats as increasingly important. The 2024 Department of Defense Arctic Strategy states that DoD must defend the homeland, safeguard U.S. interests, improve interoperability with Arctic allies and partners, and avoid the Arctic becoming a strategic blind spot.\cite{dodarctic} NATO likewise describes the Arctic as a gateway to the North Atlantic with vital trade, transport, and communication links, amid increasing Russian military activity and growing Chinese interest.\cite{natoarctic}
+
+Under the Alliance, Iceland would provide:
+
+\begin{enumerate}
+  \item \textbf{Guaranteed allied access:} continued and expanded use of agreed air, maritime, radar, undersea-cable, search-and-rescue, and logistics infrastructure under Icelandic environmental law and public reporting.
+  \item \textbf{Strategic denial:} no basing, port, telecommunications, critical-minerals, undersea infrastructure, or dual-use logistics access for hostile or coercive powers during the compact period.
+  \item \textbf{Legal predictability:} a published status-of-forces and procurement regime, independent contracting audits, and jurisdictional rules for personnel and facilities.
+  \item \textbf{Arctic domain awareness:} joint investment in sensors, communications, weather, ocean mapping, cyber resilience, and emergency response.
+  \item \textbf{Democratic legitimacy:} every major defense installation, land-use change, and accession milestone must survive Icelandic public review, making the alliance harder for rivals to delegitimize as coercion.
+\end{enumerate}
+
+These guarantees are valuable precisely because they are not imperial. The United States gains a reliable northern partner whose consent is visible, whose infrastructure is lawful, whose public has voted, and whose strategic alignment cannot be purchased quietly by another power.
+
+\subsection{What Iceland Gets}
+Iceland receives protection against the three nightmares of transition: becoming a base without a voice, a market without safeguards, or a territory without a timetable. The Alliance would therefore guarantee:
+
+\begin{enumerate}
+  \item \textbf{Language supremacy in local civic life:} Icelandic remains the language of the Althing, courts, state and local governments, schools, and public services, consistent with Icelandic language law.\cite{icelandlanguage}
+  \item \textbf{Fisheries reservation:} Icelandic fisheries management remains locally controlled during transition; FAO's country profile describes Icelandic fisheries management as based on annually set total allowable catches allocated through individual transferable quotas.\cite{faoicelandfish}
+  \item \textbf{Household-first dollar pathway:} no dollarization before published conversion rules for wages, mortgages, savings, pensions, public debt, bank capital, deposit insurance, and consumer contracts.
+  \item \textbf{Welfare continuity:} health, disability, labor, parental leave, pension, and education standards cannot be reduced by transition; any federal alignment must be additive or referendum-approved.
+  \item \textbf{Land and resource screening:} transition does not create a free-for-all in real property, energy, fisheries, ports, or data centers; non-resident investment rules remain until replaced by a ratified compact schedule.
+  \item \textbf{No permanent limbo:} the compact expires unless renewed by referendum; after year eight, Iceland must receive either a congressional admission offer, a negotiated commonwealth or free association alternative, or an automatic right to terminate the compact without penalty.
+\end{enumerate}
+
+This is the heart of the bargain. Iceland gives the United States strategic reliability. The United States gives Iceland scale without demanding immediate disappearance. Each side receives something it can explain honestly to its own voters.
+
+\subsection{Democratic Machinery}
+The Alliance would use five gates:
+
+\begin{enumerate}
+  \item \textbf{Negotiating mandate:} Althing authorizes talks after publishing objectives, red lines, conflict disclosures, and a citizens' evidence dossier.
+  \item \textbf{Compact referendum:} Icelandic voters approve or reject the transitional Alliance before it enters into force.
+  \item \textbf{Congressional implementing act:} Congress funds the compact, defines U.S. obligations, creates oversight bodies, and states that final admission remains subject to a later Article IV act.
+  \item \textbf{Midpoint audit:} in year five, a joint democratic commission reports on defense, fiscal, language, welfare, fisheries, corruption, procurement, and public-opinion indicators.
+  \item \textbf{Final choice:} in years eight to ten, Icelandic voters choose among admission petition, renewed compact, free association/commonwealth negotiation, or return to ordinary bilateral alliance.
+\end{enumerate}
+
+The Alliance would also create a \textit{Joint Democratic Council} with equal Icelandic and U.S. membership, public minutes, subpoena-like investigatory powers where constitutionally available, annual anti-corruption audits, and a citizen petition mechanism. Its job would not be to govern Iceland. Its job would be to prove, in public, that the transition is not being captured by party-bank networks, defense contractors, resource interests, or prestige politics.
+
+\subsection{The Guarantee Ledger}
+\begin{itemize}
+  \item \textbf{Defense and Arctic access:} the United States guarantees funded infrastructure, clear jurisdiction, environmental obligations, and no coercive acquisition; Iceland guarantees reliable access, strategic denial, domain awareness, and allied interoperability.
+  \item \textbf{Democracy:} the United States guarantees no final status without Icelandic referendum and Article IV legislation; Iceland guarantees compact legitimacy through public vote, disclosure, and midpoint audit.
+  \item \textbf{Economy and currency:} the United States guarantees a household-first transition fund, bank-readiness standards, and deposit and pension modeling; Iceland guarantees transparent fiscal data, anti-corruption procurement, and no hidden guarantees to insiders.
+  \item \textbf{Language and culture:} the United States guarantees local Icelandic civic supremacy through compact law; Iceland guarantees phased federal access and English-language services without displacing Icelandic.
+  \item \textbf{Fisheries and resources:} the United States guarantees treaty reservation of local management unless voters approve change; Iceland guarantees sustainable management, allied port security, and transparent licensing.
+  \item \textbf{Exit and endpoint:} the United States guarantees no promise that bypasses Congress and a clear offer, renewal, alternative, or termination by year ten; Iceland guarantees no permanent strategic ambiguity and good-faith pursuit of admission if voters approve the petition.
+\end{itemize}
+
+This ledger is the answer to the fear on both sides. Iceland fears absorption. The United States fears open-ended obligation without strategic return. A democratic alliance compact gives Iceland an enforceable shield and gives Washington a reliable northern architecture. It is not the final union. It is the proof that final union can be pursued without fraud.
+
+\section{The Proper Union Test}
+A thesis-style argument must end in standards, not slogans alone. \PartyEN{} should support union only if the following conditions are met. These are not negotiating preferences. They are the test that separates union from absorption, equality from limbo, and strategy from surrender.
+
+The Iceland-Denmark and Puerto Rico-United States mirror adds one final commandment: democratic autonomy without constitutional finality becomes stagnant.
+
+\begin{enumerate}
+  \item \textbf{Equal voice or no union:} no permanent status without voting federal representation and a defined constitutional path.
+  \item \textbf{No territory without a timetable:} if any transitional territorial phase is used, its duration, review points, and endpoint must be written into the treaty.
+  \item \textbf{No union without consent:} the process requires a published negotiating mandate, full treaty text, independent assessment, and binding referendum.
+  \item \textbf{No consent without truth:} fiscal, legal, defense, welfare, environmental, and cultural effects must be modeled publicly before ratification.
+  \item \textbf{No currency transition without household guarantees:} mortgages, savings, pensions, wages, public accounts, and bank readiness must be protected before dollarization.
+  \item \textbf{No federal presence without local consent and environmental law:} defense, airspace, ports, radar, and emergency infrastructure must be governed by transparent local consultation and enforceable environmental standards.
+  \item \textbf{No cultural union without Icelandic language supremacy in local civic life:} Icelandic remains the primary language of local government, courts for local matters, education, public broadcasting, and cultural policy.
+  \item \textbf{No resource transfer without explicit reservation:} fisheries, renewable energy, land use, and environmental stewardship remain locally governed except where the treaty explicitly provides otherwise.
+  \item \textbf{No social regression:} health care, labor standards, pensions, disability rights, parental leave, and welfare protections cannot be weakened by transition.
+  \item \textbf{No Puerto Rico clause:} permanent second-tier status is unacceptable; citizenship without equal voice is not the objective.
+  \item \textbf{No party-bank bargain in the shadows:} all treaty lobbying, donations, advisory roles, financial interests, and future employment commitments must be disclosed before referendum.
+  \item \textbf{No privatized gain with public rescue:} households and public institutions must be protected before financial insiders, counterparties, contractors, or transition consultants.
+  \item \textbf{No captured regulator:} banking, fisheries, infrastructure, and defense procurement oversight must include independent audit and federal-local review mechanisms.
+\end{enumerate}
+
+If these tests cannot be met, the party must walk away. The obsession is not with joining at any price. The obsession is with building the one form of union that would make Iceland safer, louder, richer in institutional capacity, and still unmistakably itself.
+
+\section{Conclusion}
+Independence and unity are not moral opposites. They are institutional strategies. Independence maximizes formal control and cultural authorship. Unity can maximize practical capacity if it is equal, constitutional, and democratically chosen. The choice turns on whether a small North Atlantic republic can better protect its people by standing alone with many dependencies, or by entering one larger constitutional dependency with enforceable representation and negotiated safeguards.
+
+Alaska shows the promise: federal integration, resource rights, infrastructure, and local public finance can convert geography into durable capacity. Puerto Rico shows the warning: partial belonging can create a democratic deficit that neither independence nor equal statehood would tolerate. Iceland's current EEA position shows the middle condition of modern small states: even outside full union, rulemaking and market access are already shared.
+
+The resulting thesis is conditional, but it is not timid. \PartyEN{} should not argue that union is always better than independence. It should argue that, under the right treaty, union is now the necessary work of Icelandic self-preservation. Isolated sovereignty can preserve the form of command while losing the instruments of command. Proper union can preserve the nation by giving it scale.
+
+That is the thought to which this paper returns, again and again, because no other thought has survived the decades as well. Not less Icelandic, but more secure. Not silent in Europe, but voiced in a federation. Not annexed, not absorbed, not postponed into territorial uncertainty. A larger republic, a stronger Iceland. Our language at home, our voice in the federation. Equal voice or no union. No union without consent. No consent without truth. \textit{\MottoEN.}
+
+\section*{Íslensk samantekt}
+\addcontentsline{toc}{section}{Íslensk samantekt}
+\selectlanguage{icelandic}
+Sjálfstæði hefur skýra kosti: stjórnarskrárlegt vald, menningarlegt sjálfræði, fiskveiðistjórn, tungumálavernd og nálægð milli kjósenda og stjórnvalda. Gallarnir felast í smæð: gjaldmiðilsáhættu, þrengri skattstofni, takmörkuðu varnarsvigrúmi, dýrum innviðum og minni samningsstyrk gagnvart stærri ríkjum og ríkjasamböndum. Ritgerðin heldur því fram að stærsta mistökin séu að rugla saman formlegu sjálfstæði og raunverulegu athafnafrelsi.
+
+Eining við Bandaríkin gæti veitt stærri gjaldmiðil, meiri varnargetu, dýpri fjármagnsmarkaði, rannsóknarfé og alríkisinnviði. Hún gæti líka veiklað menningu, fært vald fjær borgurum og skapað hættu á annars flokks stöðu ef fulltrúaaðild væri ófullnægjandi. Alaska sýnir mögulegan ávinning af fullri aðild og auðlinda- og innviðauppbyggingu. Puerto Rico sýnir hættuna af óljósri stöðu, ríkisborgararétti án fullrar pólitískrar raddar og fjármálaeftirliti sem vex upp úr óleystu stjórnskipulegu sambandi.
+
+Samanburðurinn við Danmörku dýpkar þessa viðvörun. Ísland fór frá dönsku valdi til endurreists Alþingis, stjórnarskrár, heimastjórnar og síðan fullveldis í konungssambandi árið 1918, áður en lýðveldið 1944 batt enda á stjórnskipulega óvissu. Puerto Rico fór frá spænsku nýlenduveldi til bandarísks yfirráðs, ríkisborgararéttar, stjórnarskrár og Commonwealth-fyrirkomulags, en án fullrar sambandsraddar. Lærdómurinn er ekki að sögurnar séu eins, heldur að lýðræðislegt sjálfræði án endanlegrar stjórnskipulegrar niðurstöðu getur staðnað.
+
+Hrunið, Icesave-deilan og tengsl banka, stjórnmála og stórra fjárhagslegra hagsmuna sýna einnig að smæð getur skapað nánd sem er bæði lýðræðisleg og hættuleg. Ritgerðin setur fram harða en varfærna pólitíska túlkun: ekki að dómstólar hafi sannað samsæri stjórnmálaflokks um Icesave, heldur að flokkabankatengsl, umdeildar framlagsgreiðslur, veik eftirlitsgeta og ofvöxtur bankakerfisins hafi skapað lögmætiskreppu. Þess vegna verður rétt gert samband að innihalda gagnsæi, sjálfstætt eftirlit og bann við því að einkahagnaður verði keyptur með opinberri björgun.
+
+Sögulegt fordæmi er þegar til staðar: Ísland fékk hæstu Marshall-aðstoð á mann allra ríkja, nærri tvöfalt meira á mann en næsthæsti viðtakandi, og aðstoðin fjármagnaði verulegan hluta innflutnings, fjárfestinga og innviða á uppbyggingartíma eftir stríð. Norður-atlantískt lýðræðisbandalag myndi uppfæra þá gömlu hagsmunasamstöðu með skýrari lýðræðislegum skilyrðum: gagnsæi, heimilistryggingum, tungumálavernd, varnarsamráði og útgönguleið ef endanlegt samband verður ekki samþykkt.
+
+Niðurstaðan er skilyrt en ekki hikandi: \PartyIS{} ætti aðeins að styðja einingu ef hún byggist á samþykki þjóðarinnar, fullri pólitískri rödd, vernd íslenskrar tungu, staðbundinni stjórn auðlinda, félagslegri samfellu og skýrum fjárhagslegum útreikningum. Reglurnar eru harðar: engin jöfn rödd, ekkert samband; ekkert landsvæði án tímalínu; engin gjaldmiðilsbreyting án heimilistrygginga; engin alríkisnærvera án staðbundins samþykkis og umhverfisréttar. Kjörorðið verður því ekki innantómt slagorð heldur prófsteinn: \textit{tungan heima, röddin í sambandsríkinu; ekkert samband án samþykkis; ekkert samþykki án sannleika; eining í styrk og styrkur í einingu.}
+
+\selectlanguage{english}
+\newpage
+\begingroup
+\raggedright
+\begin{thebibliography}{99}
+
+\bibitem{worldbankiceland}
+World Bank. ``Iceland Data.'' Accessed June 15, 2026.
+\url{https://data.worldbank.org/country/iceland}
+
+\bibitem{statisticsiceland}
+Statistics Iceland. ``The population on 1 January 2024.'' February 2024.
+\url{https://www.statice.is/publications/news-archive/inhabitants/the-population-on-1-january-2024/}
+
+\bibitem{govicelandeurope}
+Government of Iceland. ``Iceland in Europe.'' Accessed June 15, 2026.
+\url{https://government.is/topics/foreign-affairs/iceland-in-europe/}
+
+\bibitem{eftaeea}
+European Free Trade Association. ``Procedures in the EEA EFTA States, the EFTA Secretariat and the EU for the incorporation of legislation into the EEA Agreement.'' Accessed June 15, 2026.
+\url{https://www.efta.int/eealaw/details}
+
+\bibitem{eucfp}
+European Commission, Directorate-General for Maritime Affairs and Fisheries. ``Common fisheries policy.'' Accessed June 15, 2026.
+\url{https://oceans-and-fisheries.ec.europa.eu/common-fisheries-policy-cfp_en}
+
+\bibitem{nordicsicelandhistory}
+Nordics.info. ``History of Iceland, 1840s to the Second World War.'' Accessed June 15, 2026.
+\url{https://nordics.info/show/artikel/history-of-iceland-1840s-to-the-second-world-war}
+
+\bibitem{locunionact}
+Library of Congress. ``Centennial of the Danish-Icelandic Union Act of 1918.'' November 30, 2018.
+\url{https://blogs.loc.gov/law/2018/11/centennial-of-the-danish-icelandic-union-act-of-1918/}
+
+\bibitem{icelandforeignaid}
+Kristín Loftsdóttir, Helga Björnsdóttir, and Unnur Dís Skaptadóttir. ``Iceland and Foreign Aid: From Recipient to Donor.'' Open Science repository, 2020.
+\url{https://opinvisindi.is/bitstreams/dbaf98ab-a52e-4ae1-9ab9-a81cfeaec93d/download}
+
+\bibitem{peirce1868}
+Benjamin Mills Peirce. \textit{A Report on the Resources of Iceland and Greenland}. Washington: Government Printing Office, 1868. Digitized by Internet Archive.
+\url{https://archive.org/details/areportonresour00statgoog}
+
+\bibitem{gissurarsonproposals}
+Hannes H. Gissurarson. ``Proposals to Sell, Annex and Evacuate Iceland, 1518--1868.'' 2015.
+\url{https://skemman.is/bitstream/1946/23162/1/Loka%C3%BAtg%C3%A1fa_STJ_hannes.pdf}
+
+\bibitem{sicenglish}
+Special Investigation Commission of Althing. ``Report of the Special Investigation Commission (SIC), English.'' Accessed June 15, 2026.
+\url{https://www.rna.is/eldri-nefndir/addragandi-og-orsakir-falls-islensku-bankanna-2008/skyrsla-nefndarinnar/english/}
+
+\bibitem{bisiceland}
+Bank for International Settlements, Financial Stability Institute. ``The banking crisis in Iceland.'' Accessed June 15, 2026.
+\url{https://www.bis.org/fsi/fsicms1.pdf}
+
+\bibitem{asilicesave}
+American Society of International Law. ``Iceland's Financial Crisis: Quo Vadis International Law?'' Accessed June 15, 2026.
+\url{https://asil.org/insights/volume-14-issue-5/}
+
+\bibitem{brookingsiceland}
+Sigríður Benediktsdóttir, Gauti B. Eggertsson, and Eggert Þórarinsson. ``The Rise, Fall, and Resurrection of Iceland: A Postmortem Analysis of the 2008 Financial Crisis.'' Brookings Papers on Economic Activity, 2017.
+\url{https://www.brookings.edu/wp-content/uploads/2018/02/benediktsdottirtextfa17bpea.pdf}
+
+\bibitem{guardianhaarde}
+The Guardian. ``Iceland ex-PM Geir Haarde cleared of bank negligence.'' April 23, 2012.
+\url{https://www.theguardian.com/world/2012/apr/23/iceland-geir-haarde-found-guilty}
+
+\bibitem{europamfinance}
+European Public Accountability Mechanisms. ``Iceland Public Accountability Index: Political Finance.'' Accessed June 15, 2026.
+\url{https://europam.eu/?country=Iceland&module=country-profile}
+
+\bibitem{beagdpstate}
+U.S. Bureau of Economic Analysis. ``GDP by State.'' Accessed June 15, 2026.
+\url{https://www.bea.gov/data/gdp/gdp-state}
+
+\bibitem{usafactsalaska}
+USAFacts. ``What is the gross domestic product (GDP) in Alaska?'' Uses U.S. Bureau of Economic Analysis and U.S. Census Bureau source data. Accessed June 15, 2026.
+\url{https://usafacts.org/answers/what-is-the-gross-domestic-product-gdp/state/alaska/}
+
+\bibitem{apfchistory}
+Alaska Permanent Fund Corporation. ``History.'' Accessed June 15, 2026.
+\url{https://apfc.org/about/history/}
+
+\bibitem{eiaalaskaarctic}
+U.S. Energy Information Administration. ``Oil exploration in the U.S. Arctic continues despite current price levels.'' June 2015.
+\url{https://www.eia.gov/todayinenergy/detail.php?id=21632}
+
+\bibitem{beapuertorico}
+U.S. Bureau of Economic Analysis. ``Gross Domestic Product for Puerto Rico, 2023.'' July 31, 2025.
+\url{https://www.bea.gov/news/2025/gross-domestic-product-puerto-rico-2023}
+
+\bibitem{nyfedpuertorico}
+Federal Reserve Bank of New York. ``Puerto Rico Economic Indicators.'' June 4, 2026.
+\url{https://www.newyorkfed.org/medialibrary/media/research/regional_economy/charts/Regional_PuertoRico}
+
+\bibitem{crspuertorico}
+Congressional Research Service. ``Political Status of Puerto Rico: Options for Congress.'' Hosted by EveryCRSReport.
+\url{https://www.everycrsreport.com/reports/RL32933.html}
+
+\bibitem{fombpromesa}
+Financial Oversight and Management Board for Puerto Rico. ``About Us.'' Accessed June 15, 2026.
+\url{https://oversightboard.pr.gov/about-us/}
+
+\bibitem{cfrpuertorico}
+Council on Foreign Relations. ``Puerto Rico: A U.S. Territory in Crisis.'' Accessed June 15, 2026.
+\url{https://www.cfr.org/backgrounders/puerto-rico-us-territory-crisis}
+
+\bibitem{historianprcommonwealth}
+U.S. Department of State, Office of the Historian. ``Puerto Rico Commonwealth Status.'' Foreign Relations of the United States, 1952--1954, Volume III.
+\url{https://history.state.gov/historicaldocuments/frus1952-54v03/d902}
+
+\bibitem{usconstitution}
+United States Senate. ``Constitution of the United States.'' Accessed June 15, 2026.
+\url{https://www.senate.gov/civics/constitution_item/constitution.htm}
+
+\bibitem{alaskastatehood}
+Avalon Project, Yale Law School. ``Alaska Statehood Act; July 7, 1958.'' Accessed June 15, 2026.
+\url{https://avalon.law.yale.edu/20th_century/ak_statehood.asp}
+
+\bibitem{crsfas}
+Congressional Research Service. ``The Freely Associated States and Issues for Congress.'' Hosted by EveryCRSReport.
+\url{https://www.everycrsreport.com/reports/R48311.html}
+
+\bibitem{doiCOFA}
+U.S. Department of the Interior. ``Compacts of Free Association.'' Accessed June 15, 2026.
+\url{https://www.doi.gov/oia/compacts-of-free-association}
+
+\bibitem{dodarctic}
+U.S. Department of Defense. ``2024 Arctic Strategy.'' July 2024.
+\url{https://media.defense.gov/2024/Jul/22/2003507411/-1/-1/0/dod-arctic-strategy-2024.pdf}
+
+\bibitem{natoarctic}
+NATO. ``Arctic security.'' Accessed June 15, 2026.
+\url{https://www.nato.int/en/what-we-do/deterrence-and-defence/arctic-security}
+
+\bibitem{icelandlanguage}
+Act on the Status of the Icelandic Language and Icelandic Sign Language, English translation. Accessed June 15, 2026.
+\url{https://www.deaf.is/english/status-of-icelandic-sign-language/}
+
+\bibitem{faoicelandfish}
+Food and Agriculture Organization of the United Nations. ``Iceland: Fisheries and Aquaculture Country Profile.'' Accessed June 15, 2026.
+\url{https://www.fao.org/fishery/facp/isl/en}
+
+\end{thebibliography}
+\endgroup
+
+\end{document}
